@@ -1,0 +1,79 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estrutura do container */
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.header p {
+    color: #666;
+}
+
+/* Seções */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    margin: 0;
+}
+
+/* Listas e itens */
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para os detalhes de experiência */
+.experience {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience h3 {
+    margin: 0;
+    color: #333;
+}
+
+.experience .date {
+    color: #999;
+    font-size: 0.9em;
+}
+
+/* Contato */
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-info p {
+    margin: 0;
+}
